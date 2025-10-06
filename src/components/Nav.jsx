@@ -113,7 +113,7 @@ const Nav = () => {
                         <div className='text-theme-700 text-2xl -rotate-135'>
                             <FaCircleHalfStroke />
                         </div>
-                        <ul ref={themeRef} className={`w-fit h-fit rounded-xl bg-white/10 backdrop-blur-lg absolute top-[45px] gap-2 p-2 
+                        <ul ref={themeRef} className={`w-fit h-fit rounded-xl bg-black/70 backdrop-blur-lg absolute top-[45px] gap-2 p-2 
                         cursor-auto flex flex-row-reverse z-0 transition-all duration-500
                         ${showThemes ?
                                 'opacity-100 pointer-events-auto right-0'
@@ -129,7 +129,8 @@ const Nav = () => {
                                          ${currentTheme === key ? 'ring-2 ring-white/40' : ''}
                                         cursor-pointer rounded-full`}
                                         onClick={() => {
-                                            setCurrentTheme(key)
+                                            setCurrentTheme(key);
+                                            setShowThemes(false);
                                         }}
                                     >
                                         <div className='w-full h-ful rounded-full -rotate-135'>

@@ -108,7 +108,7 @@ function App() {
       }}
     >
       <main
-        className={`theme-${currentTheme} h-screen w-full overflow-y-auto snap-y snap-mandatory scroll-smooth`}
+        className={`theme-${currentTheme} h-lvh w-full overflow-y-auto snap-y snap-mandatory scroll-smooth`}
       >
         <Nav />
         <Home />

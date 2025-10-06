@@ -54,7 +54,7 @@ const Skills = () => {
     return (
         <section id='skills' dir={lang === 'en' ? 'ltr' : 'rtl'}
             className='min-h-dvh relative snap-start overflow-hidden
-        bg-[url("images/skills2.png")] bg-no-repeat bg-cover
+        bg-[url("/images/skills2.png")] bg-no-repeat bg-cover
         items-center justify-center z-0 pt-[64px]
         '>
             <div className="ov absolute top-0 left-0 bg-black/25 size-[100%] z-[-1]"></div>

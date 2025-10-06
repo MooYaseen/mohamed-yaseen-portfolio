@@ -141,7 +141,7 @@ const About = () => {
 
             <div className='container min-h-dvh max-w-[90%] xl:max-w-[1200px] 2xl:max-w-[1440px] overflow-hidden
             flex-col-reverse md:flex-row h-full md:h-fit
-            mx-auto flex justify-end gap-5 md:justify-around items-center grow pt-[64px]'>
+            mx-auto flex justify-end gap-5 md:justify-around items-center grow pt-[40px] md:pt-[64px]'>
                 <div className="basis-1/2 h-full flex flex-col justify-center">
                     <div className="who">
                         <div className={`sec-title capitalize flex items-baseline gap-3 mb-2
@@ -204,7 +204,7 @@ const About = () => {
                 before:content-[''] before:z-[-1] before:-bottom-2 before:left-1/2
                 before:-translate-x-1/2
                 z-10">
-                    <img src="/images/me2-logo.png" alt="" className='moyaseen w-[13rem] md:w-[20rem] lg:w-[25rem]' />
+                    <img src="images/me2-logo.png" alt="" className='moyaseen w-[13rem] md:w-[20rem] lg:w-[25rem]' />
                 </div>
 
             </div >

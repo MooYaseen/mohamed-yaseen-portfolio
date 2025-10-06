@@ -268,24 +268,26 @@ html {
   background: linear-gradient(to bottom, var(--my-color-700) 96%, var(--my-color-950) 100%);
 }
 
+@media (min-width:1024px) {
 
-::-webkit-scrollbar {
-  width: 8px;
-}
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-}
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
 
-::-webkit-scrollbar-thumb {
-  background: var(--my-color-700);
-  border-radius: 10px;
-}
+  ::-webkit-scrollbar-thumb {
+    background: var(--my-color-700);
+    border-radius: 10px;
+  }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-  background: var(--my-color-950);
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    background: var(--my-color-950);
+  }
 }
 
 .hover-shine {

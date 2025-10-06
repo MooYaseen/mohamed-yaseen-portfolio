@@ -97,7 +97,7 @@ const Home = () => {
     return (
         <section id='home' dir={lang === 'en' ? 'ltr' : 'rtl'}
             className={`h-dvh relative text-gray-50 snap-start w-full 
-             ${lang === "en" ? "bg-[url('images/home-en.jpg')] bg-[70%]" : "bg-[url('images/home-ar.jpg')] bg-[30%]"}
+             ${lang === "en" ? "bg-[url('/images/home-en.jpg')] bg-[70%]" : "bg-[url('/images/home-ar.jpg')] bg-[30%]"}
             md:bg-center
          bg-cover bg-no-repeat flex flex-col z-0 overflow-x-hidden select-none
          `}

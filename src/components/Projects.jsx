@@ -163,7 +163,7 @@ const Projects = () => {
 
     return (
         <section id='projects' dir={lang === 'en' ? 'ltr' : 'rtl'}
-            className='bg-[url("images/water.jpg")] bg-cover bg-repeat py-[64px] relative
+            className='bg-[url("/images/water.jpg")] bg-cover bg-repeat py-[64px] relative
             z-0 snap-start flex bg-radial text-white from-black/90 via-black/95 to-black
             overflow-x-hidden
             ' >

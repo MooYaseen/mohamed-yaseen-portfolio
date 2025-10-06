@@ -72,7 +72,7 @@ const Contact = () => {
                 autoPlay loop muted playsInline
                 className="absolute inset-0 w-full z-[-1] h-full object-cover"
             >
-                <source src="/images/squares.mp4" type="video/mp4" />
+                <source src="images/squares.mp4" type="video/mp4" />
             </video>
             <div className="layer absolute size-full top-0 left-0 bg-zinc-950/75 z-[-1]"></div>
 
