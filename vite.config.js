@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/mohamed-yaseen-portfolio/",
 
   server: {
     port: 3000,
