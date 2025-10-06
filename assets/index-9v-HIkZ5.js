@@ -126,7 +126,7 @@ Error generating stack: `+l.message+`
                 ${n==="en"?"right-9":"left-9"}
                 text-theme-700`,children:M.jsx(V5,{})}),M.jsxs("div",{className:`container min-h-dvh max-w-[90%] xl:max-w-[1200px] 2xl:max-w-[1440px] overflow-hidden\r
             flex-col-reverse md:flex-row h-full md:h-fit\r
-            mx-auto flex justify-end gap-5 md:justify-around items-center grow pt-[64px]`,children:[M.jsxs("div",{className:"basis-1/2 h-full flex flex-col justify-center",children:[M.jsxs("div",{className:"who",children:[M.jsxs("div",{className:`sec-title capitalize flex items-baseline gap-3 mb-2
+            mx-auto flex justify-end gap-5 md:justify-around items-center grow pt-[40px] md:pt-[64px]`,children:[M.jsxs("div",{className:"basis-1/2 h-full flex flex-col justify-center",children:[M.jsxs("div",{className:"who",children:[M.jsxs("div",{className:`sec-title capitalize flex items-baseline gap-3 mb-2
                         ${n==="en"?"font-fugaz":"font-changa mb-6"}
                         font-bold text-2xl md:text-4xl`,children:[M.jsx("div",{className:"dot h-4 w-4 rounded-full bg-theme-700"}),c.about.maintitle[n],M.jsx("span",{className:" text-theme-700 font-alexandria text-4xl md:text-6xl",children:n==="en"?"?":"؟"})]}),M.jsx("div",{className:`paragraph text-sm md:text-xl leading-9 mb-3
                         ${n==="en"?"font-readex font-light capitalize":"font-changa"}
