@@ -4,12 +4,11 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/mohamed-yaseen-portfolio/",
   plugins: [
     react(),
     tailwindcss(),
   ],
-  base: "/mohamed-yaseen-portfolio/",
-
   server: {
     port: 3000,
   },
